@@ -41,7 +41,7 @@ install() {
 
   # install
   log::info "[$(timestamp)][package][$name] installing ..."
-  os::install $bin_file $usr_bin_dir
+  os::install $bin_file $usr_bin_dir $name
 
 # Complex like maven-mvnd
 #   # make executable
