@@ -6,6 +6,7 @@ help() {
   echo ""
 
   pgweb --help
+  return 0
 }
 
 version() {
